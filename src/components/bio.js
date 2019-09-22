@@ -26,6 +26,8 @@ const Bio = () => {
           author
           social {
             twitter
+            facebook
+            youtube
           }
         }
       }
@@ -54,12 +56,9 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Written by <strong>{author}</strong> who works from 3rd world Europe country called Bosnia and Herzegovina.
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        You should follow him on <a href={`https://twitter.com/${social.twitter}`}>twitter</a>.. Or see what he is up to on <a href={`https://www.facebook.com/${social.facebook}`}>facebook</a> maybe? At least check his <a href={`https://www.youtube.com/channel/${social.youtube}`}>youtube channel</a>, please?
       </p>
     </div>
   )
