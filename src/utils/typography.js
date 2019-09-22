@@ -6,6 +6,19 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "body":{
+      color: `hsla(0,0%,100%,0.9)`,
+      backgroundColor: `hsla(0,0%,0%,0.9)`,
+    },
+    "mark,ins": {
+      color: `hsla(0,0%,100%,0.9)`,
+    },
+    "blockquote": {
+      color: `hsla(0,0%,100%,0.65)`,
+    },
+    "blockquote cite": {
+      color: `hsla(0,0%,100%,0.95)`,
+    },
   }
 }
 
