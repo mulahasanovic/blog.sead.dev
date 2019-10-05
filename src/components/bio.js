@@ -8,8 +8,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-
 import { rhythm } from "../utils/typography"
+import Social from "../components/social"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -25,9 +25,16 @@ const Bio = () => {
         siteMetadata {
           author
           social {
-            twitter
-            facebook
-            youtube
+            twitter {
+              user
+              link
+              path
+            }
+            github {
+              user
+              link
+              path
+            }
           }
         }
       }
@@ -55,11 +62,17 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author}</strong> who works from 3rd world Europe country called Bosnia and Herzegovina.
-        {` `}
-        You should follow him on <a href={`https://twitter.com/${social.twitter}`}>twitter</a>.. Or see what he is up to on <a href={`https://www.facebook.com/${social.facebook}`}>facebook</a> maybe? At least check his <a href={`https://www.youtube.com/channel/${social.youtube}`}>youtube channel</a>, please?
-      </p>
+      <div>
+        <p>
+          It all starts with the single <em>Hello World</em> and soon you find yourself writing intro on your personal blog.
+          <br></br>
+        </p>
+        <p>
+          <strong>{author}</strong>, a developer from Bosnia and Herzegovina.
+        </p>
+        <Social data={social.twitter}/>
+        <Social data={social.github}/>
+      </div>
     </div>
   )
 }
