@@ -8,7 +8,7 @@ const Social = ({data}) => {
         alignItems: `center`,
       }}
     >
-      <svg className="" fill-opacity="0" stroke="#fff" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+      <svg className="" fillOpacity="0" stroke="#fff" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
           <path d={data.path}></path>
       </svg>
       <a href={`${data.link}${data.user}`}>@{data.user}</a>
