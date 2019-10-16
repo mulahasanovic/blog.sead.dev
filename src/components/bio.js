@@ -64,8 +64,7 @@ const Bio = () => {
       />
       <div>
         <p>
-          It all starts with the single <em>Hello World</em> and soon you find yourself writing intro on your personal blog.
-          <br></br>
+          It all starts with the single <em>Hello World</em> and soon you find yourself writing an intro on your personal blog.
         </p>
         <p>
           <strong>{author}</strong>, a developer from Bosnia and Herzegovina.

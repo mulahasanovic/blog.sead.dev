@@ -1,22 +1,19 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: "2019-10-16T20:00:00.000Z"
+description: "Mandatory first post, I think."
 ---
 
-This is my first post on my new fake blog! How exciting!
+### Hello World
 
-I'm sure I'll write a lot more interesting things in the future.
+That's how everything starts these days. Be it a textbook or a tutorial. I am pretty fond of it to tell you the truth. Since I am just an ordinary developer and not by any means a writer, I am scared how will my posts turn out. Frankly, I am not sure what to write about yet in this blog.
+Perhaps share some notes?  Maybe share my attempts at new frameworks? We will see. Who knows? I sure don't.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+I have a hunch the first few posts will be dim just like my programming sometimes. The situation is akin to when lights go out, and you tap around in the dark looking for the candles and the matches. You are thinking: What's so dim about this? Well, that might not be dim, but the problem is you don't have the candles nor the matches, so you end up waiting for the electricity to come back. Anyway, we will see how my blog work holds up in the long run.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+### Blog tech
+If you are interested, for this blog, I use a slightly edited [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog) template.
+- [Gatsby](https://www.gatsbyjs.org/) is a free and open-source framework based on [React](https://reactjs.org/), which made this whole process easy.
+- [Netlify](https://www.netlify.com/) is everything you need to build a website. It is also keeping this blog alive and kicking.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+I was compelled to mention them both since both are free. Now, if you wish to start your blog, nothing can stop you.
