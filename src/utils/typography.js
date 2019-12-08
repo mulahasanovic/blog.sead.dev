@@ -3,17 +3,17 @@ import Wordpress2016 from "typography-theme-wordpress-2016"
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
-    "a": {
+    a: {
       boxShadow: `none`,
     },
-    "body":{
+    body:{
       color: `hsla(0,0%,100%,0.9)`,
       backgroundColor: `hsla(0,0%,0%,0.9)`,
     },
     "mark,ins": {
       color: `hsla(0,0%,100%,0.9)`,
     },
-    "blockquote": {
+    blockquote: {
       color: `hsla(0,0%,100%,0.65)`,
     },
     "blockquote cite": {
