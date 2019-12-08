@@ -5,7 +5,7 @@ description: TL;DR - From Bachelor's Degree in IT over C# to Web Dev.
 ---
 I've got a Bachelor's Degree from the Faculty of Information Technology at the University "Džemal Bijedić" in Mostar.
 
-Before that, I hardly knew what programming was, but I was adamant about enrolling there. It took me some time to switch from student mentality to one of the programmers. I had to learn how to describe the problems and find the needed solutions. Google helped. Once I got that nailed, it was time for me to move away from the university curriculum and start on my path.
+Before that, I hardly knew what programming was, but I was adamant about enrolling in IT University. It took me some time to switch from student mentality to one of the programmers. I had to learn how to describe the problems and find the needed solutions. Google helped. Once I got that nailed, it was time for me to move away from the university curriculum and start on my path.
 
 My first stop was video game development with the Unity game engine. I encountered animating, modeling, and programming. Soon I realized I lacked direction. So I had to find it somehow.
 
@@ -15,6 +15,6 @@ My group, consisting of eight members, was supposed to build a learning app. The
 
 So, as luck would have it, I got a job offer to work at the local game dev company. It didn't take too much thinking to call two other members and call the whole thing off. For the better or worse, we all split our way.
 
-Next week I had my first job as the unity c# developer. The job was fun and hard. For the next week, we had ups and downs. It was fun and sad at times. Indy game dev is hard. It's the usual story, especially the struggles to keep the firm afloat. My time at this place needs an blog post of its own. It lasted a year, and I was already looking for my next job.
+Next week I had my first job as the unity c# developer. The job was fun and hard. For the next year, we had ups and downs. It was fun and sad at times. Indy game dev is hard. It's the usual story, especially the struggles to keep the firm afloat. My time at this place needs an blog post of its own. It lasted a year, and I was already looking for my next job.
 
 That brings us to my current job. A front-end developer, hehe.
