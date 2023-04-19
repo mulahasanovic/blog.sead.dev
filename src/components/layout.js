@@ -1,29 +1,37 @@
-import React from "react"
+import * as React from "react"
+import { Link } from "gatsby"
 
-import { rhythm } from "../utils/typography"
-import Header from "../components/header"
+const Layout = ({ location, title, children }) => {
+  const rootPath = `${__PATH_PREFIX__}/`
+  const isRootPath = location.pathname === rootPath
+  let header
 
-class Layout extends React.Component {
-  render() {
-    const { location, title, children } = this.props
-
-    return (
-      <div
-      style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-        >
-        <Header title={title} location={location}/>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with <a href="https://www.gatsbyjs.org">Gatsby</a> and <a href="https://www.netlify.com">Netlify</a>
-        </footer>
-      </div>
+  if (isRootPath) {
+    header = (
+      <h1 className="main-heading">
+        <Link to="/">{title}</Link>
+      </h1>
+    )
+  } else {
+    header = (
+      <Link className="header-link-home" to="/">
+        {title}
+      </Link>
     )
   }
+
+  return (
+    <div
+      className="global-wrapper"
+      data-is-root-path={isRootPath}
+    >
+      <header className="global-header">{header}</header>
+      <main>{children}</main>
+      <footer>
+        © {new Date().getFullYear()}, Built with <a href="https://www.gatsbyjs.org">Gatsby</a> and <a href="https://www.netlify.com">Netlify</a>
+      </footer>
+    </div>
+  )
 }
 
 export default Layout

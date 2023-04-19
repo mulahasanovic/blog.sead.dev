@@ -1,7 +1,0 @@
-a:focus,
-a:hover {
-  background: linear-gradient(90deg, #ccad00, #cc4700);
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
